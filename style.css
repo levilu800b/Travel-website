@@ -4,7 +4,18 @@
 }
 
 .logo {
-  width: 9%;
+  width: 10%;
+}
+
+#navbarNav {
+  padding: 10px;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    background-size: 700px;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-left: 300px;
 }
 
 .navbar {
@@ -16,6 +27,27 @@
   line-height: 1.42857143 !important;
   letter-spacing: 4px;
   border-radius: 0;
+  margin-left: 10px;
+}
+
+.navbar-nav {
+  display: flex;
+}
+
+.navbar-nav li a {
+  padding: 10px 15px;
+  color: #6c707c;
+  font-size: 20px;
+}
+
+.nav-item-active a,
+.navbar-nav li a:hover {
+    background-color: #272626;
+    color: #FFF !important;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 20px;
+    transition: all ease 0.4s;
 }
 
 .carousel-inner {
